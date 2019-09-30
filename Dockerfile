@@ -8,4 +8,6 @@ RUN npm install -g @angular/cli@1
 
 COPY . /usr/src/app
 
+RUN npm install 
+
 CMD ng serve 
